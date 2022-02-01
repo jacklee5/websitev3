@@ -9,8 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "firebase": "^9.6.5"
-  }
+  "license": "ISC"
 }

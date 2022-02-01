@@ -1,13 +1,25 @@
 {
-  "name": "jacklee.dev",
+  "name": "website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "website",
+  "author": "jacklee5",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo building!"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
+    "gatsby": "^4.6.1",
+    "gatsby-plugin-styled-components": "^5.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.3"
+  }
 }

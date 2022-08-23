@@ -1,0 +1,61 @@
+/* Shared styles */
+@use "variables" as *;
+
+/****************************
+    BASE STYLES
+****************************/
+body {
+    background: #262335;
+    margin: 0;
+    font-family: "Fira Code", monospace;
+    color: $text-color;
+}
+.container {
+    max-width: $container-width;
+    margin: auto;
+}
+p {
+    line-height: 200%;
+}
+a {
+    color: $green;
+}
+
+/****************************
+    HEADERS
+****************************/
+h1 {
+    color: #72F1B8;
+    font-size: 48px;
+    margin-top: 72px;
+    font-weight: bold;
+}
+h2 {
+    color: white;
+    font-size: 36px;
+    margin-top: 64px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+/****************************
+    NAV
+****************************/
+nav {
+    max-width: $container-width;
+    margin: 48px auto;
+    font-size: 14px;
+}
+nav .nav-link {
+    color: $nav-color;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 32px;
+    transition: all .3s;
+}
+nav .nav-link.active{
+    color: $text-color;
+}
+nav .nav-link:hover{
+    color: $text-color;
+}

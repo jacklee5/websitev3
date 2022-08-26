@@ -15,3 +15,23 @@
     text-decoration: none;
     font-weight: 400;
 }
+
+.moving-arrow {
+    animation: none;
+    display: inline-block;
+}
+a:hover .moving-arrow{
+    animation: float 1s infinite;
+}
+@keyframes float {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 8px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+

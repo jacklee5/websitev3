@@ -59,3 +59,21 @@ nav .nav-link.active{
 nav .nav-link:hover{
     color: $text-color;
 }
+
+/****************************
+    ANIMATIONS
+****************************/
+.float-in {
+    animation: floatIn .5s;
+}
+@keyframes floatIn{
+    from {
+        opacity: 0;
+        position: relative;
+        top: 32px;
+    } to {
+        opacity: 1;
+        position: relative;
+        top: 0px;
+    }
+}

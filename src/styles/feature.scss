@@ -3,20 +3,24 @@
 .feature {
     background: $blue;
     padding: 16px 32px;
+    margin: 16px 0;
+    color: white;
 }
 .feature-company {
     margin: 0;
-    color: $green;
     font-size: 12px;
 }
 .feature-tag {
     margin-right: 8px;
     font-size: 12px;
+    color: $green;
 }
 .feature-title {
-    font-size: 28px;
-    margin-bottom: 0;
+    font-size: 30px;
+    margin: 0;
 }
 .feature-desc {
     font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 0;
 }

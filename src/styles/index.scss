@@ -35,3 +35,10 @@ a:hover .moving-arrow{
     }
 }
 
+.built-by {
+    color: white;
+    text-decoration: none;
+}
+.built-by:hover {
+    color: $green;
+}

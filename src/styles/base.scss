@@ -20,6 +20,11 @@ p {
 a {
     color: $green;
 }
+.caption {
+    font-size: 12px;
+    color: gray;
+    margin-top: -1em;
+}
 
 /****************************
     HEADERS
@@ -58,6 +63,13 @@ nav .nav-link.active{
 }
 nav .nav-link:hover{
     color: $text-color;
+}
+
+/****************************
+    TABLE
+****************************/
+th, td {
+    text-align: left;
 }
 
 /****************************

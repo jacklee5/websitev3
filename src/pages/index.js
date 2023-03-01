@@ -16,7 +16,7 @@ import resumeFile from "../files/Resume.pdf";
 export default function IndexPage( { data } ) {
 	const message = "Hi, I'm Jack Lee";
 	const [display, setDisplay] = useState("none");
-	const [animate, setAnimate] = useState(false);
+	const [animate, setAnimate] = useState(true);
 
 	// run animation only once
 	useEffect(() => {
